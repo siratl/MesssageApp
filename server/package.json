@@ -1,0 +1,30 @@
+{
+  "name": "MesssageApp",
+  "version": "1.0.0",
+  "description": "Twilio Messaging app with a hint of OAuth.",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "twilio": "^3.29.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siratl/MesssageApp.git"
+  },
+  "keywords": [],
+  "author": "Elisha Atulomah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siratl/MesssageApp/issues"
+  },
+  "homepage": "https://github.com/siratl/MesssageApp#readme"
+}
